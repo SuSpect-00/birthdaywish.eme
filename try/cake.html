@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make a Wish! 🎂</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container cake-page">
+        <div class="stars"></div>
+        <div class="content">
+            <h1 class="title">🎂 Make a Wish, Birthday Baby! 🎂</h1>
+            
+            <div class="cake-container">
+                <div class="cake">
+                    <div class="cake-layer cake-bottom"></div>
+                    <div class="cake-layer cake-middle"></div>
+                    <div class="cake-layer cake-top"></div>
+                    
+                    <div class="candles">
+                        <div class="candle candle1">
+                            <div class="flame flame1"></div>
+                        </div>
+                        <div class="candle candle2">
+                            <div class="flame flame2"></div>
+                        </div>
+                        <div class="candle candle3">
+                            <div class="flame flame3"></div>
+                        </div>
+                        <div class="candle candle4">
+                            <div class="flame flame4"></div>
+                        </div>
+                        <div class="candle candle5">
+                            <div class="flame flame5"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="instruction">Close your eyes, make a wish, and blow out the candles! 💨</p>
+                <button id="blowBtn" class="blow-btn" onclick="blowCandles()">
+                    🌬️ Blow Out Candles
+                </button>
+                
+                <div id="celebration" class="celebration hidden">
+                    <h2>🎉 Wish Made! 🎉</h2>
+                    <p>May all your dreams come true, my love!</p>
+                    <button class="next-btn" onclick="goToLetter()">
+                        Read My Letter 💌
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
